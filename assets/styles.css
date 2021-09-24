@@ -43,3 +43,7 @@ input {
     width: 100%;
     height: 100%;
 }
+
+input:hover {
+    border-style: solid;
+}
