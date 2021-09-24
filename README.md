@@ -4,3 +4,11 @@ This app utilizes javascript with the jQuery framework to allow users to input t
 Mock Up
 ---
 ![Mock Up](./assets/images/Screenshot.png)
+
+Links
+---
+Repo:
+https://github.com/parkersatterfield/Work-Day-Scheduler
+
+Live  App:
+https://parkersatterfield.github.io/Work-Day-Scheduler/
