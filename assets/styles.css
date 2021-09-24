@@ -23,16 +23,19 @@ header p {
 
 .event {
     align-items: center;
-    background-color: green;
+    background-color: rgba(5, 163, 5, 0.65);
     padding: 8px;
+    border-top: solid;
 }
 
 .save {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(172, 181, 204);
-    padding:5px;
+    background-color: #0d6efd;
+    padding:8px;
+    border-top: solid;
+    border-right: solid;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
