@@ -6,8 +6,7 @@ var input = [$('#input1'), $('#input2'),$('#input3'),$('#input4'),$('#input5'),$
 
 // Set current date and time as variables
 var currentDate = moment().format('MMM DD, YYYY');
-var currentTime = moment().format('H:mm');
-var currentHour = moment().format('H:00');
+var currentHour = moment().format('HH:00');
 
 // Change header element text to current time
 currentDateEl.text(currentDate);
@@ -16,55 +15,55 @@ currentDateEl.text(currentDate);
 var rows = [
     rowNine = {
         element: $('#9am'),
-        time: moment().format('09:00', 'h:mm'),
+        time: moment().format('09:00', 'HH:00'),
         event: '',
         eventEl: $('#input1')
     },
     rowTen = {
         element: $('#10am'),
-        time: moment().format('10:00', 'h:mm'),
+        time: moment().format('10:00', 'HH:00'),
         event: '',
         eventEl: $('#input2')
     },
     rowEleven = {
         element: $('#11am'),
-        time: moment().format('10:00', 'h:mm'),
+        time: moment().format('11:00', 'HH:00'),
         event: '',
         eventEl: $('#input3')
     },
     rowTwelve = {
         element: $('#12pm'),
-        time: moment().format('12:00', 'h:mm'),
+        time: moment().format('12:00', 'HH:00'),
         event: '',
         eventEl: $('#input4')
     },
     rowOne = {
         element: $('#1pm'),
-        time: moment().format('13:00', 'h:mm'),
+        time: moment().format('13:00', 'HH:00'),
         event: '',
         eventEl: $('#input5')
     },
     rowTwo = {
         element: $('#2pm'),
-        time: moment().format('14:00', 'h:mm'),
+        time: moment().format('14:00', 'HH:00'),
         event: '',
         eventEl: $('#input6')
     },
     rowThree = {
         element: $('#3pm'),
-        time: moment().format('15:00', 'h:mm'),
+        time: moment().format('15:00', 'HH:00'),
         event: '',
         eventEl: $('#input7')
     },
     rowFour = {
         element: $('#4pm'),
-        time: moment().format('16:00', 'h:mm'),
+        time: moment().format('16:00', 'HH:00'),
         event: '',
         eventEl: $('#input8')
     },
     rowFive = {
         element: $('#5pm'),
-        time: moment().format('17:00', 'h:mm'),
+        time: moment().format('17:00', 'HH:00'),
         event: '',
         eventEl: $('#input9')
     }
